@@ -13,4 +13,4 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("I'm alive \nMy Peru owner:Aakash\n[Fork Here](https://github.com/Aakash7617281/GujjuBot)" )
+    await alive.edit("I'm alive \nMy Peru owner: Aakash \n[Fork Here](https://github.com/Aakash7617281/GujjuBot)" )
