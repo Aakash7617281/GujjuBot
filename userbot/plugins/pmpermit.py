@@ -1,7 +1,4 @@
-Skip to content
- japarmar / GujjuBot
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
 
 
 Code Issues 0 Pull requests 0 Projects 0 Actions Wiki Security 0 Pulse Community
