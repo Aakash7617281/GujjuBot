@@ -1,4 +1,3 @@
-
 """AFK Plugin for @UniBorg
 Syntax: .afk REASON"""
 import asyncio
@@ -146,10 +145,8 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = 
-   
-        message_to_reply = f"My Master Has Been Gone For {afk_since}\nWhere He Is: I donno " + \
-            f"\n\n__ He'll back in a few hours__\n**REASON**: {reason}" 
+        message_to_reply = f"__My Master Has Been Gone For__ `{total_afk_time}`\nWhere He Is: ~~I donno~~ " + \
+            f"\n\n__I promise He'll back after a while__\n**REASON**: {reason}" \
             if reason \
             else f"**Heya!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  "
         msg = await event.reply(message_to_reply)
